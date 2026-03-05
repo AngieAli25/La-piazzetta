@@ -1,0 +1,123 @@
+.section {
+    padding: 20px 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-dark);
+    white-space: nowrap;
+}
+
+.discoverBtn {
+    background-color: #1a213d;
+    color: white;
+    padding: 8px 8px 8px 24px;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    transition: transform 0.2s, background-color 0.2s;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.discoverBtn:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+.logoWrapper {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.logoWrapper::before,
+.logoWrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.logoWrapper::before {
+    left: 0;
+    background: linear-gradient(to right, white, transparent);
+}
+
+.logoWrapper::after {
+    right: 0;
+    background: linear-gradient(to left, white, transparent);
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: -40px;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.logos::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari */
+}
+
+.logo {
+    flex-shrink: 0;
+    width: 351px;
+    height: 176px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(0%);
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 20px;
+        align-items: flex-start;
+    }
+
+    .logoWrapper::before,
+    .logoWrapper::after {
+        width: 40px;
+    }
+
+    .logo {
+        width: 80px;
+        height: 40px;
+    }
+
+    .logos {
+        gap: 30px;
+    }
+}
