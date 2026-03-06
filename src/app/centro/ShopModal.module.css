@@ -311,6 +311,19 @@
     flex-shrink: 0;
 }
 
+/* Quando ci sono poche immagini, le facciamo più grandi */
+.gallery:has(.imageWrapper:only-child) .imageWrapper {
+    width: 100%;
+}
+
+.gallery:has(.imageWrapper:first-child:nth-last-child(2)) .imageWrapper {
+    width: calc(50% - 8px);
+}
+
+.gallery:has(.imageWrapper:first-child:nth-last-child(2)) ~ .gallery .imageWrapper {
+    width: calc(50% - 8px);
+}
+
 .galleryImage {
     transition: transform 0.3s ease;
 }

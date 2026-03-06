@@ -76,13 +76,13 @@ export default function ShopModal({ shop, onClose }) {
                                 href={shop.facebook}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className={`${styles.callButton} ${[2, 4, 6].includes(shop.id) ? styles.iconOnly : ''}`}
+                                className={`${styles.callButton} ${[2, 4, 6, 14].includes(shop.id) ? styles.iconOnly : ''}`}
                                 title="Visita Facebook"
                             >
                                 <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                                 </svg>
-                                {![2, 4, 6].includes(shop.id) && <span>Visita Facebook</span>}
+                                {![2, 4, 6, 14].includes(shop.id) && <span>Visita Facebook</span>}
                             </a>
                         )}
                     </div>
