@@ -511,6 +511,17 @@ Partners: Panetteria Mattiazzo Rivoli • Caffè Costadoro • Forno D'Asolo`,
         ],
         logo: '/loghi-negozi/3.png',
         url: '#'
+    },
+    {
+        id: 19,
+        name: 'La Clohette',
+        categories: ['Beauty'],
+        description: 'Wellness & Beauty Solution',
+        fullDescription: `La Clohette è un brand italiano nato ad Alba, specializzato in trattamenti viso e corpo di estetica avanzata manuale. Il centro si distingue per un approccio professionale e personalizzato, studiato per trattare in modo mirato ogni inestetismo attraverso tecniche manuali innovative e protocolli specifici.`,
+        descriptionExtra: `Lo store propone prodotti naturali certificati biologici, selezionati per rispondere alle diverse esigenze della pelle, oltre a percorsi detox personalizzati acquistabili direttamente online sul sito ufficiale.`,
+        images: [],
+        logo: '/loghi-negozi/19.png',
+        url: 'https://laclohette.com/'
     }
 ];
 

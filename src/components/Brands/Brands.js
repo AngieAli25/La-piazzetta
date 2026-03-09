@@ -8,8 +8,8 @@ import styles from './Brands.module.css';
 export default function Brands() {
     const scrollRef = useRef(null);
 
-    // Array of logo filenames (1.png to 18.png)
-    const logos = Array.from({ length: 18 }, (_, i) => `${i + 1}.png`);
+    // Array of logo filenames (1.png to 19.png)
+    const logos = Array.from({ length: 19 }, (_, i) => `${i + 1}.png`);
 
     useEffect(() => {
         const scrollContainer = scrollRef.current;
