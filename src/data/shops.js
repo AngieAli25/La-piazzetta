@@ -34,7 +34,7 @@ export const shops = [
         fullDescription: `Dal 2007, JP La Mia Boutique è il punto di riferimento a Rivoli per chi cerca il meglio del Made in Italy. Paola e Jennifer offrono uno stile ricercato e contemporaneo, pensato per valorizzare ogni donna con un "total look" unico che coordina abbigliamento e accessori con eleganza e raffinatezza.`,
         descriptionExtra: `All'interno trovi maglieria di qualità, borse in pelle, bijoux anallergici e accessori dei migliori brand come Mimì Muà Firenze, Camomilla Milano e Luca Barra. Il nostro staff è a disposizione per consulenze d'immagine personalizzate e con la Fidelity Card puoi accumulare punti per ricevere vantaggi esclusivi ad ogni acquisto.`,
         hours: [
-            { day: 'Lunedì - Sabato', time: '09:00 - 20:00' },
+            { day: 'Lunedì - Sabato', time: '09:00 - 19:30' },
             { day: 'Domenica', time: 'Chiuso' }
         ],
         contacts: [
@@ -242,7 +242,7 @@ export const shops = [
         fullDescription: `Marionnaud è il punto di riferimento per la bellezza al Centro Commerciale La Piazzetta. In un ambiente elegante e raffinato, troverai il meglio della profumeria internazionale, con un ampio assortimento di fragranze, make-up e trattamenti per la cura del viso e del corpo.`,
         descriptionExtra: `Oltre ai prodotti dei brand più prestigiosi, offriamo servizi esclusivi come trucco professionale, applicazione smalto e analisi gratuita della pelle. Con la Fidelity Card Marionnaud, ogni acquisto ti premia con sconti e vantaggi personalizzati. Per la massima comodità, sono attivi i servizi Store to Door e Click & Collect.`,
         hours: [
-            { day: 'Lunedì - Sabato', time: '09:00 - 20:00' },
+            { day: 'Lunedì - Sabato', time: '09:00 - 19:30' },
             { day: 'Domenica', time: 'Chiuso' }
         ],
         contacts: [
@@ -400,7 +400,7 @@ Partners: Panetteria Mattiazzo Rivoli • Caffè Costadoro • Forno D'Asolo`,
         id: 13,
         name: 'Coop',
         categories: ['Alimentari'],
-        description: 'Supermercato',
+        description: 'Superstore',
         fullDescription: `Il supermercato Coop di Rivoli ti offre tutto ciò di cui hai bisogno in un unico spazio: dalla panetteria fresca alla gastronomia, dalla pescheria alla macelleria, fino alla parafarmacia per la tua salute quotidiana.`,
         descriptionExtra: `Con la Carta Socio Coop accedi a un mondo di vantaggi esclusivi: valida per sempre (con almeno una spesa all'anno), ti apre le porte a sconti, promozioni e servizi riservati ai soci. Iscrivendoti con la quota sociale minima prevista per legge di 25 €, ricevi subito 5 Buoni Sconto del 10% ciascuno, validi su una spesa fino a 50 € per scontrino, utilizzabili in tutti i Supermercati e Ipermercati Nova Coop, incluso Fiorfood in Galleria San Federico a Torino.\n\nEntra nella nostra Community, scopri le offerte del punto vendita e lasciati sorprendere dalle novità. Ti aspettiamo!`,
         hours: [
@@ -442,7 +442,7 @@ Partners: Panetteria Mattiazzo Rivoli • Caffè Costadoro • Forno D'Asolo`,
         fullDescription: `Fondato nel 1994, Non solo Tacco è il punto di riferimento a Rivoli per la cura e il restauro dei tuoi oggetti preferiti. Situato all'interno de La Piazzetta, Salvatore e il suo staff offrono servizi artigianali di riparazione calzature, borse, capi in pelle e tute da moto, unendo tradizione e competenza.`,
         descriptionExtra: `Oltre alla calzoleria, offriamo una vasta gamma di servizi rapidi: duplicazione chiavi (incluse quelle auto con riparazione dei gusci), realizzazione di targhe e timbri, affilatura forbici e coltelli. In negozio trovi anche accessori di qualità come stringhe, solette, cinture in pelle, portafogli e bretelle. Siamo inoltre a disposizione per consulenze su interventi per serrande, porte blindate e fabbro.`,
         hours: [
-            { day: 'Lunedì - Sabato', time: '09:00 - 20:00' },
+            { day: 'Lunedì - Sabato', time: '09:00 - 19:00' },
             { day: 'Domenica', time: 'Chiuso' }
         ],
         phone: '+39 342 5930277',
@@ -497,8 +497,8 @@ Partners: Panetteria Mattiazzo Rivoli • Caffè Costadoro • Forno D'Asolo`,
         fullDescription: `Dal 2006, Safarà Cucito è il punto di riferimento a Rivoli per tutti gli appassionati e i professionisti del cucito e del ricamo. Situato all'interno de La Piazzetta, il negozio offre una vasta gamma di macchine per cucire, ricamatrici e taglia-e-cuci dei brand più prestigiosi come Singer, Brother, Janome, Pfaff e Husqvarna Viking.`,
         descriptionExtra: `Oltre alla vendita, disponiamo di un laboratorio interno per l'assistenza tecnica post-vendita e ospitiamo la "Safarà School", dove esperti del settore tengono corsi di cucito creativo, patchwork e quilting. Offriamo inoltre una selezione accurata di filati di alta qualità e software per ricamo, garantendo supporto a 360° per ogni tua creazione.`,
         hours: [
-            { day: 'Lunedì', time: '15:30 - 19:00' },
-            { day: 'Martedì - Sabato', time: '09:30 - 19:00' },
+            { day: 'Lunedì', time: '15:30 - 19:30' },
+            { day: 'Martedì - Sabato', time: '09:00 - 19:30' },
             { day: 'Domenica', time: 'Chiuso' }
         ],
         phone: '+39 011 8115343',
