@@ -497,8 +497,7 @@ Partners: Panetteria Mattiazzo Rivoli • Caffè Costadoro • Forno D'Asolo`,
         fullDescription: `Dal 2006, Safarà Cucito è il punto di riferimento a Rivoli per tutti gli appassionati e i professionisti del cucito e del ricamo. Situato all'interno de La Piazzetta, il negozio offre una vasta gamma di macchine per cucire, ricamatrici e taglia-e-cuci dei brand più prestigiosi come Singer, Brother, Janome, Pfaff e Husqvarna Viking.`,
         descriptionExtra: `Oltre alla vendita, disponiamo di un laboratorio interno per l'assistenza tecnica post-vendita e ospitiamo la "Safarà School", dove esperti del settore tengono corsi di cucito creativo, patchwork e quilting. Offriamo inoltre una selezione accurata di filati di alta qualità e software per ricamo, garantendo supporto a 360° per ogni tua creazione.`,
         hours: [
-            { day: 'Lunedì', time: '15:30 - 19:30' },
-            { day: 'Martedì - Sabato', time: '09:00 - 19:30' },
+            { day: 'Lunedì - Sabato', time: '09:00 - 19:30' },
             { day: 'Domenica', time: 'Chiuso' }
         ],
         phone: '+39 011 8115343',
